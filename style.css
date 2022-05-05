@@ -1,0 +1,60 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 221, 221, 0.575);
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title {
+    flex: 3;
+}
+
+.actbutton {
+    flex: 1;
+    flex-flow: column-reverse;
+}
+
+.content {
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 0;
+    display: flex;
+    border: 1px solid #707070;
+    background: #707070;
+    width: 100%;
+}
+
+select:invalid {
+    color: gray;
+}
+
+option {
+    color: black;
+}
+
+.ADD
+{
+cursor:pointer;
+}
